@@ -14,9 +14,11 @@ RakuWorld is the open showcase.
 >
 > Final result: **26 mm from a 3.000 m target, inside tolerance.**
 
-**[▶ Watch the RakuAI / RakuWorld GTC film](video/rakuai-rakuworld-gtc-720p.mp4)** (plays in the browser) · [1600×900 master](https://github.com/RakuXR/raku-world-public/raw/main/video/rakuai-rakuworld-gtc.mp4)
+**▶ The RakuAI / RakuWorld GTC film** (78 s — press play):
 
-[![RakuAI — the Neon Vault](assets/social-16x9.png)](video/rakuai-rakuworld-gtc-720p.mp4)
+https://github.com/user-attachments/assets/32101572-cd23-485e-97d3-0bbf851e1ff4
+
+Files in this repository: [1600×900 master](video/rakuai-rakuworld-gtc.mp4) ([direct link](https://github.com/RakuXR/raku-world-public/raw/main/video/rakuai-rakuworld-gtc.mp4)) · [720p copy](video/rakuai-rakuworld-gtc-720p.mp4) · hashes in [`SHA256SUMS`](SHA256SUMS)
 
 ---
 
