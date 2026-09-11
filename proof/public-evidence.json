@@ -1,0 +1,46 @@
+{
+ "showcase": "RakuWorld \u2014 the open NVIDIA GTC showcase for RakuAI",
+ "model": {
+  "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "role": "reasoning / control decisions; the model states its prediction before the engine runs and corrects from the measured error"
+ },
+ "serving": {
+  "provider": "NVIDIA NIM",
+  "base_url": "https://integrate.api.nvidia.com/v1",
+  "self_hosted": false,
+  "serving_hardware": "not observed \u2014 no claim is made about the hardware NVIDIA serves the model on"
+ },
+ "result": {
+  "task": "apply an impulse so a ball comes to rest on a target; the compiled physics runtime measures where it actually stopped",
+  "target_m": 3.0,
+  "tolerance_m": 0.25,
+  "initial_control_error_m": 2.85685,
+  "initial_control_error_m_rounded": "2.857",
+  "final_control_error_m": 0.02646,
+  "final_control_error_m_rounded": "0.026",
+  "final_control_error_mm": 26,
+  "error_reduction_pct_derived": 99.07,
+  "within_tolerance": true,
+  "method": "iterative correction from the measured error, in-context; nothing trained between decisions",
+  "transport": "in-process tool calls; this result is not an MCP-transport run (MCP is a separate, distinct capability of the runtime)"
+ },
+ "gpu_rendering": {
+  "observed": true,
+  "api": "Direct3D 11",
+  "adapter": "NVIDIA Quadro T2000 with Max-Q Design",
+  "vendor_id": "0x10DE",
+  "device_id": "0x1FB8",
+  "how": "the adapter is read back from the created ID3D11Device, not from the request",
+  "physics": "CPU (the GPU renders; it computes no physics)"
+ },
+ "hashes": {
+  "showcase_initial_png": "7047af7865d93443f65658e2bfa1504b2c114b44195629fa68198b195bf54c49",
+  "showcase_final_png": "915f09329bc2faf9d616eb61e04430cdf0d959a4adcfdd94ecdd9221bd2c22ed",
+  "film_mp4": "e4c5ddb81bf226b04e837c85f2f68c0de2b676b29da2df65e4f361142398123e",
+  "note": "the two showcase frames are the runtime's own renders at the initial and final control error, taken from the public film"
+ },
+ "private_record": {
+  "sha256": "39a19c390a93d30d49af7090f370c73da2cf0e06f90d8dccb048103c4901a1f9",
+  "note": "SHA-256 of the private measurement record (tool calls, intermediate measurements, model reasoning) from which the errors above are read; the record is not published"
+ }
+}
