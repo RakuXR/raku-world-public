@@ -1,7 +1,7 @@
 {
  "path": "video/rakuai-rakuworld-gtc.mp4",
- "sha256": "e4c5ddb81bf226b04e837c85f2f68c0de2b676b29da2df65e4f361142398123e",
- "bytes": 32505025,
+ "sha256": "75b656864ce4ffc6e1c00ab5661f0f80b09020d6e093b3e1ed2d921218664d29",
+ "bytes": 22618278,
  "duration_s": 78.5,
  "video": {
   "codec": "h264",
@@ -9,13 +9,13 @@
   "height": 900,
   "fps": 30,
   "pixel_format": "yuv420p",
-  "encoder": "libx264 crf 25, faststart"
+  "encoder": "libx264 crf 27 (2.3 Mbps cap), faststart \u2014 sized to play inline in the GitHub file viewer"
  },
  "audio": {
   "codec": "aac",
   "sample_rate": 48000,
   "channels": 2,
-  "bitrate_kbps": 160,
+  "bitrate_kbps": 128,
   "note": "no narration; no third-party audio; every clip procedurally authored and mixed by the RakuAI audio runtime; one linear gain and a peak limiter applied at mux"
  },
  "world_footage": "every frame rendered by the RakuAI runtime (Direct3D 11) on an NVIDIA GPU; physics by the RakuAI physics runtime on the CPU; on-screen text composited afterwards",
