@@ -19,5 +19,22 @@
   "note": "no narration; no third-party audio; every clip procedurally authored and mixed by the RakuAI audio runtime; one linear gain and a peak limiter applied at mux"
  },
  "world_footage": "every frame rendered by the RakuAI runtime (Direct3D 11) on an NVIDIA GPU; physics by the RakuAI physics runtime on the CPU; on-screen text composited afterwards",
- "public_derivative": "overlays generalized for publication: the initial and final control error are shown; intermediate measurements, command parameters, transport internals and model reasoning are not"
+ "public_derivative": "overlays generalized for publication: the initial and final control error are shown; intermediate measurements, command parameters, transport internals and model reasoning are not",
+ "viewing_copy": {
+  "path": "video/rakuai-rakuworld-gtc-720p.mp4",
+  "sha256": "1820676558b06e54ed30b078043943d5e542c6a2857d71221407d76a7e5de4a3",
+  "bytes": 9481917,
+  "duration_s": 78.5,
+  "video": {
+   "codec": "h264",
+   "width": 1280,
+   "height": 720,
+   "fps": 30
+  },
+  "audio": {
+   "codec": "aac",
+   "bitrate_kbps": 80
+  },
+  "note": "same film, downscaled so it plays inline in the GitHub file viewer; the 1600x900 file above is the canonical encode"
+ }
 }
